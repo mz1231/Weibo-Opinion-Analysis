@@ -1,0 +1,190 @@
+Upsampled Yes: 7412
+Train Samples: 14824
+Test Samples: 2001
+Test Accuracy: 0.9785
+Test Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.99      0.98      0.99      1853
+           1       0.81      0.92      0.86       148
+
+    accuracy                           0.98      2001
+   macro avg       0.90      0.95      0.93      2001
+weighted avg       0.98      0.98      0.98      2001
+
+Test Confusion Matrix:
+[[1822   31]
+ [  12  136]]
+Misclassified Examples:
+Text: 哈哈哈 可不管怎么样你都会对音乐保留一份天真 所以我很喜欢
+Predicted Label: 1
+True Label: 0
+
+Text: 笨比们这都能犟嘴，法治社会你私藏想进局子祸连三代有种你就干[摊手]
+Predicted Label: 1
+True Label: 0
+
+Text: 【2月我国城市轨道交通运送旅客15.6亿人次】 今天，交通运输部发布2月城市轨道交通运营数据。2月，31个省（自治区、直辖市）和新疆生产建设兵团共有51个城市开通运营城市轨道交通线路272条，运营里程8819公里，实际开行列车259万列次，完成客运量15.6亿人次，进站量9.5亿人次。  2月份，新增运营线路2 
+Predicted Label: 1
+True Label: 0
+
+Text: #男子酒后开女友车出事故两人均担责# [话筒][话筒]
+Predicted Label: 1
+True Label: 0
+
+Text: 全网捂嘴式营销！强行爆剧！！资方现在也不需要看市场真实声音真实水平真实数据了！从开始筹备到剧播捂嘴营销一条龙全包了！！嗯，开心就好！[摊手][摊手][摊手]自娱自乐罢了！ 
+Predicted Label: 1
+True Label: 0
+
+Text: 不错不错。
+Predicted Label: 1
+True Label: 0
+
+Text: #万代南梦宫在下一盘大棋# [good]
+Predicted Label: 1
+True Label: 0
+
+Text: “我自己来体验也十分有意义”[good][good]
+Predicted Label: 1
+True Label: 0
+
+Text: 好搞笑呀，你怎么能把门给拆下来呢？哈哈哈，已经笑出鸡叫了
+Predicted Label: 1
+True Label: 0
+
+Text: #The8徐明浩[超话]#xmh #徐明浩无限可能#  小好啊！@徐明浩_The8 新年快乐啊啊啊啊～感谢可以遇见❤️今天跑到外面就是想带着你一起感受过年的气息，哈哈哈，也许在这里你还有几率可以看到送你的祝福哈哈哈哈哈！新的一年我们都要越来越好哟[单身青蛙]，也要一直幸福下去[爱你] 
+Predicted Label: 1
+True Label: 0
+
+Text: 【直播：长峰医院火灾事故情况通报】4月18日12时57分，北京市丰台区消防救援支队接警，北京长峰医院住院部东楼发生火情。今天，北京市人民政府新闻办公室举行长峰医院火灾事故情况通报会，市公安局、市卫健委、市消防救援总队、丰台区政府相关负责人通报情况并回答记者提问。
+Predicted Label: 1
+True Label: 0
+
+Text: #郑州一社区书记称为防疫错过女儿生日# 执政最大的危险是：________________________。 
+Predicted Label: 1
+True Label: 0
+
+Text: 【明确了！学校应为烈士子女提供这些保障】  今天（7月5日）上午，退役军人事务部举行新闻发布会，相关负责人回应近期相关热点话题。  学校应为烈士子女提供坚实保障  在关心关爱烈士子女方面，退役军人事务部褒扬纪念司一级巡视员副司长袁英敏表示，退役军人事务部在《关于用好烈士褒扬红色资源 加强 
+Predicted Label: 1
+True Label: 0
+
+Text: #青海路网实时路况#  [话筒][话筒]G6（北京至西藏）高速，扎倒路段药水峡4号隧道K1862+880（扎麻隆至倒淌河方向）交通事故处理完毕，道路恢复正常通行。      [心]实时路况咨询，信息咨询，意见建议，投诉举报，救援服务请拨打青海省交通运输服务监督电话【12328】或关注“高速V服”微信小程序[心]     
+Predicted Label: 1
+True Label: 0
+
+Text: 为你点赞[good]
+Predicted Label: 1
+True Label: 0
+
+Text: 好耶#昂扬秋招节# [好爱哦]
+Predicted Label: 1
+True Label: 0
+
+Text: #会唱歌的石头见证中华千年礼乐文明# 哈哈哈 还以为说的是长相思里的石先生呢 石先生是块树中石，喜爱说书，但凡在他眼前经过，说的话和影像都能被记录下来，留作说书素材。 还想着爱说书的石先生也会唱歌了不成 哈哈哈 
+Predicted Label: 1
+True Label: 0
+
+Text: 注意[话筒]
+Predicted Label: 1
+True Label: 0
+
+Text: 字节和心脏总有一个要跳动[摊手]
+Predicted Label: 1
+True Label: 0
+
+Text: #欢迎来到麦乐村致敬中国援外医疗队#[心]#致敬白衣外交官# 好感动[心]致敬援外医生
+Predicted Label: 1
+True Label: 0
+
+Text: [话筒]请在10月16日20:30至21:00到过罗森便利店（赏湖街店)的人员，立即向所在社区联系报备（海珠区报备专线：17765262642），并配合做好疫情防控各项措施。
+Predicted Label: 1
+True Label: 0
+
+Text: 感谢所有志愿者医护人员 你们辛苦了[心]
+Predicted Label: 1
+True Label: 0
+
+Text: 可以可以啊
+Predicted Label: 1
+True Label: 0
+
+Text: 见识到了传说中的黄金批发市场[求饶] 再也不想去品牌店当大冤种了[awsl] 逛完都想给自己整个代购副业了 真的很难不心动[允悲]  
+Predicted Label: 1
+True Label: 0
+
+Text: 恐怖
+Predicted Label: 1
+True Label: 0
+
+Text: 除了铁路做不了主的，自己能做主的都全面开花，未来可期[good]
+Predicted Label: 1
+True Label: 0
+
+Text: 【#威海环卫大叔海边与大浪抢夺垃圾# 辛苦了！】
+Predicted Label: 1
+True Label: 0
+
+Text: #健康发布# 国家卫生健康委监督局副局长程有全：国务院联防联控机制也要求各省一级的联防联控机制比照国务院联防联控机制综合组专班的架构，成立省一级的整治“层层加码”问题的专班，督促各地落实疫情防控政策，严格执行疫情防控“九不准”要求，坚决整治疫情防控简单化、“一刀切”、“层层加码”等 
+Predicted Label: 1
+True Label: 0
+
+Text: #北京地铁#[话筒] 6月9日起，北京地铁全网城六区地面公交线路正式启动自动核验乘客健康码措施。（北京时间）#北京[地点]# 
+Predicted Label: 1
+True Label: 0
+
+Text: 【#热议#[话筒]丨生态文明共建#美丽中国#】
+Predicted Label: 1
+True Label: 0
+
+Text: 好耶！大家新年快乐！！
+Predicted Label: 1
+True Label: 0
+
+Text: 河南省卫辉市城管局机关办公室主任崔士环公然殴打辱骂公务员同事，事发于2021年12月13日，距今已经1年多，该同事至今未见崔士环被处理，崔士环仍未对该同事进行任何道歉，请卫辉政府相关还中国人民一个公道，给中国人民一个满意的答复！！    
+Predicted Label: 0
+True Label: 1
+
+Text: 天公作美。有时候就佩服那些发小，他们能在老家，小地方，小镇，小县城生存下来才最牛批，因为这里有太多人际关系要处理。人和人之间，只要一聊天，不是相互知道，就是能够攀上某种关系。这种情况，要是在城市的话，是难以想象的。你在饭店吃饭，爱说什么就说什么。陌生人根本就不会去听。但是，在这里 
+Predicted Label: 0
+True Label: 1
+
+Text: 扫黑扫不完
+Predicted Label: 0
+True Label: 1
+
+Text: #瑜伽馆老板实名举报遭同行5人打进ICU#这是微博，我怕不是在开封府衙门吧，从什么时候开始法律，公安，达不到检查和申冤的功效了，这已经沦落到开始依靠舆论了[微笑] 
+Predicted Label: 0
+True Label: 1
+
+Text: 每天都在忍一忍，唉……
+Predicted Label: 0
+True Label: 1
+
+Text: 好像就没有很顺的时候，昨天过敏，今天下楼崴了脚，加班做了半天报表结果发现格式没设置对又从头开始重新做，其实这些都还可以接受，直到下班后买了西瓜结果吃了一块发现是很不喜欢的沙瓤而且感觉有点不新鲜，扔掉后开始吃无骨鸡爪，也是很不喜欢的酸辣咸味道，开始有点点崩溃。打开电脑准备继续加班时 
+Predicted Label: 0
+True Label: 1
+
+Text: 这条墙裂支持，就别调休放个七天呗！！
+Predicted Label: 0
+True Label: 1
+
+Text: 看见互联网+京津冀论文第一反应就是 我的家乡应该完善基础设施 倾斜教育资源 提高人口素质 提供就业岗位 提高社会保障等等一系列问题 而不是大炼钢铁农民晒麦高考资源紧张 何来京津冀协调发展。 
+Predicted Label: 0
+True Label: 1
+
+Text: 希望新机构能够解决。P2P一刀切以后。几亿金融灾民的资金返还问题！！！ 我们对新一届机构充满期待。也希望能够解决好p2p的善后问题，让我们重拾对党政府的信仰。
+Predicted Label: 0
+True Label: 1
+
+Text: 就是，创不了城人公务员得少拿多少钱啊[太开心]
+Predicted Label: 0
+True Label: 1
+
+Text: 心情很低落，最近突然发现家里缺什么都是用我的钱买，小到做饭用的调味料 牙膏 沐浴球 大到什么猫砂 猫粮 整箱的纸巾，然后本来最近工资又少又不够用，到月底基本都是用花呗。 然后就和同居的男朋友说 猫砂猫粮纸巾都没了 我们一起买 钱就AA，他直接就是一句我不要，我懵了，问为什么，他直接说你的猫 
+Predicted Label: 0
+True Label: 1
+
+Text: 跌跌撞撞半生已过， 终于活到了儿时羡慕的年龄， 却没能活成自己想要的模样。 上有养育之恩未还， 下有抚养之责要尽， 人到了一定年龄， 自己就是屋檐了， 再也不能到处躲雨了。 小时候盼过年， 长大后怕过年， 因为过了年又要老一岁了， 真的不敢想，越想越难过， 好想给时间踩踩刹车， 再给年龄挂挂 
+Predicted Label: 0
+True Label: 1
+

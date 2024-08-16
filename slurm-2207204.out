@@ -1,0 +1,20 @@
+/home/mz1231/.conda/envs/finetune_llama/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1517: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/mz1231/.conda/envs/finetune_llama/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1517: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/mz1231/.conda/envs/finetune_llama/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1517: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Upsampled Yes: 44472
+Train Samples: 51884
+Test Samples: 2001
+Accuracy: 0.07396301849075462
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00      1853
+           1       0.07      1.00      0.14       148
+
+    accuracy                           0.07      2001
+   macro avg       0.04      0.50      0.07      2001
+weighted avg       0.01      0.07      0.01      2001
+

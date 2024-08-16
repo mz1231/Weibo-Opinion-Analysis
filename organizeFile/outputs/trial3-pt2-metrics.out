@@ -1,0 +1,29 @@
+Detected kernel version 4.18.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/mz1231/.conda/envs/finetune_llama/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.84s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.86s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:05<00:01,  1.83s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.17s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.42s/it]
+Some weights of LlamaForSequenceClassification were not initialized from the model checkpoint at meta-llama/Meta-Llama-3-8B and are newly initialized: ['score.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Loaded model and tokenizer
+Train dataset length: 4001
+Val dataset length: 499
+Test dataset length: 502
+Class weights: tensor([0.1500, 0.8500])
+tensor([0.1500, 0.8500])
+Map:   0%|          | 0/4001 [00:00<?, ? examples/s]Map:  25%|██▍       | 1000/4001 [00:00<00:00, 3821.30 examples/s]Map:  50%|████▉     | 2000/4001 [00:00<00:00, 3739.65 examples/s]Map:  75%|███████▍  | 3000/4001 [00:00<00:00, 3785.01 examples/s]Map: 100%|█████████▉| 4000/4001 [00:01<00:00, 3767.75 examples/s]Map: 100%|██████████| 4001/4001 [00:01<00:00, 3739.84 examples/s]
+Map:   0%|          | 0/499 [00:00<?, ? examples/s]Map: 100%|██████████| 499/499 [00:00<00:00, 3888.13 examples/s]Map: 100%|██████████| 499/499 [00:00<00:00, 3790.50 examples/s]
+Map:   0%|          | 0/502 [00:00<?, ? examples/s]Map: 100%|██████████| 502/502 [00:00<00:00, 3763.82 examples/s]Map: 100%|██████████| 502/502 [00:00<00:00, 3660.75 examples/s]
+Loaded PEFT params
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.89      0.04      0.07       456
+           1       0.09      0.96      0.17        46
+
+    accuracy                           0.12       502
+   macro avg       0.49      0.50      0.12       502
+weighted avg       0.82      0.12      0.08       502
+
+Balanced Accuracy Score: 0.49690122044241036
+Accuracy Score: 0.12151394422310757
